@@ -54,11 +54,11 @@ You can find these details using the following steps:
 4.  After creating the app, the screen below is displayed. Use the provided **Application ID** in the respective field in Portainer.
 
     ![](../../../.gitbook/assets/authentication-oauth-ms-5.png)
-5.  Click on **Settings** then click **Keys**.
+5.  Click on **Certificates & Secrets** then click **Client Secrets**.
 
     ![](../../../.gitbook/assets/authentication-oauth-ms-6.png)
 
-    Under the **Passwords** section create a new key called `login`. Set the **Duration** to `never expires` and then click **Save**. The key will then be generated for you. Use this key as the **Application key** in the respective field in Portainer.
+    Create a new client secret called `login`. Set the **Duration** to `24 months` and then click **Save**. The key will then be generated for you under the value field. Use this as the **Application key** in the respective field in Portainer.
 
     ![](../../../.gitbook/assets/authentication-oauth-ms-7.png)
 
